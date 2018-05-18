@@ -270,7 +270,7 @@ if(command === "solo") {
   }
 if(command === "ip") {
     const m = await message.channel.send("Getting server IP!");
-    m.edit(``);
+    m.edit(`The DevineMC Sever IP is: play.DevineMC.xyz`);
 
   }
 if(command === "webstore") {
@@ -285,7 +285,7 @@ if(command === "store") {
   } 
 if(command === "discord") {
     const m = await message.channel.send("Getting server discord!");
-    m.edit(``);
+    m.edit(`The link the the DevineMC discord is: https://discord.gg/ZeqHYU3`);
 
   } 
 if(command === "forums") {
