@@ -107,7 +107,6 @@ module.exports = {
             .addField("!player <ID>", "Display informations about player <ID>")
             .addField("!top <max>", "Display top <max> players of clan (from 0 to 25)")
             .addField("!chest <ID>", "Display next chests incoming for player <ID>")
-            .addField("!invite", "Invite Bandit to your server!")
             .addField("!Solo", "For help and updates!")
             .addField("!battle", "Who is ready to duel!?")
             .addField("!say <message>", "Says whatever you tell the bot to say!")
@@ -117,6 +116,13 @@ module.exports = {
             .addField("!ping", "pong!")
             .addField("Need help or want to check out the discord server?", "bit.ly/VexeronBot")
             .addField("Want to check out the Bot Developers YouTube Channel?", "bit.ly/solohdyt")
+            .addField("DevineMC Commands:", "")
+            .addField("ip", "Shows the server IP")
+            .addField("forums", "Shows the server forums")
+            .addField("store", "Shows the server webstore")
+            .addField("discord", "Shows the servers discord")
+        
+        
         return message.channel.send({
             embed
         });
