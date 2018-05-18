@@ -255,13 +255,6 @@ bot.on("message", async message => {
     const m = await message.channel.send("Ping?");
 
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
-
-  }
-
-if(command === "invite") {
-    const m = await message.channel.send("Getting invite!");
-    m.edit(`Click this link to invite me: http://bit.ly/BanditInvite`);
-
   }
 
 if(command === "battle") {
@@ -275,6 +268,31 @@ if(command === "solo") {
     m.edit(`Click the link: http://bit.ly/VexeronBot or http://bit.ly/solohdyt`);
 
   }
+if(command === "ip") {
+    const m = await message.channel.send("Getting server IP!");
+    m.edit(``);
+
+  }
+if(command === "webstore") {
+    const m = await message.channel.send("Getting server webstore!");
+    m.edit(``);
+
+  }  
+if(command === "store") {
+    const m = await message.channel.send("Getting server webstore!");
+    m.edit(``);
+
+  } 
+if(command === "discord") {
+    const m = await message.channel.send("Getting server discord!");
+    m.edit(``);
+
+  } 
+if(command === "forums") {
+    const m = await message.channel.send("Getting server forums!");
+    m.edit(``);
+
+  } 
 
   
 
