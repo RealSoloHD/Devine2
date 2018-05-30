@@ -174,7 +174,7 @@ bot.on("ready", () => {
 
   // docs refer to as the "ClientUser".
 
-  bot.user.setActivity(`bit.ly/DevineClan | !help`);
+  bot.user.setActivity(`bit.ly/solohdyt | !help`);
 
 });
 
@@ -186,7 +186,7 @@ bot.on("guildCreate", guild => {
 
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
 
-  bot.user.setActivity(`bit.ly/DevineClan | !help`);
+  bot.user.setActivity(`bit.ly/solohdyt | !help`);
 
 });
 
